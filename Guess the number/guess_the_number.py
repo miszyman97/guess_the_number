@@ -3,8 +3,7 @@ from random import randint
 
 Try until user gives a proper number.
 
-:rtype: int
-:return: given number as int
+:rtype: None
 """
 
 guess = False
