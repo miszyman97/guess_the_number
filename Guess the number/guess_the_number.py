@@ -12,7 +12,6 @@ number = randint(1, 100)
 while guess != number:
     try:
         guess = int(input('Enter the number: '))
-        guess = int(guess)
 
         if guess < number:
             print('Too small!')
